@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Travel Landing Page</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="'https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap'">
+    </head>
+    <section class="showcase">
+    <header>
+      <h2 class="logo">Travel</h2>
+      <div class="toggle"></div>
+	  
+    </header>
+	<body>
+    <video src="Aerial View.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>Never Stop </h2> 
+      <h3>Exploring The World</h3>
+      <p>Travelling gives first- hand information about things places, persons and events. IT provides an opportunity for acquiring a practical knowledge of men and matters and enables a person to fight the battle of life in a more successful way. Travelling is essential for the healthy growth of the mind.</p>
+      <a href="#">Explore</a>
+    </div>
+    <ul class="social">
+      <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+    </ul>
+    </section>
+    <div class="menu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="#">Destination</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+        const showcase = document.querySelector('.showcase');
+        menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+    })
+	</script>
+	</body>
+	</html>
